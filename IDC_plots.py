@@ -27,6 +27,7 @@ for tau in range(tau_min, tau_max):
     sptr_tau, t_tau = np.histogram(spike_times, bins=int(num_samples/tau))
     idc[tau] = np.var(sptr_tau) / np.mean(sptr_tau)
 
+plt.subplot(3, 1, 1)
 plt.title('IDC (FF)')
 plt.xlabel('Bin Width (ms/10)')
 plt.ylabel('IDC')
@@ -66,12 +67,12 @@ for i_win_size in range(1, T_length-1):
     IDC_array[i_win_size] = 1 + A - (B * C)
     ExpArray[i_win_size] = (11*r2 + 12*r1) / (r1 + r2)*t
 
-plt.subplot(2, 1, 1)
+plt.subplot(3, 1, 2)
 plt.plot(T_array, IDC_array)
-plt.ylabel('Index for the dispersion of counts')
-plt.title('IDC curve')
+plt.ylabel('IDC')
+plt.title('Index for the dispersion of counts')
 
-plt.subplot(2, 1, 2)
+plt.subplot(3, 1, 3)
 plt.plot(T_array, ExpArray)
 plt.xlabel('Window size (ms)')
 plt.ylabel('Expected number of spikes')

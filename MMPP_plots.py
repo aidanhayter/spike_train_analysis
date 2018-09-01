@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from spike_train import create_spikes
 import math
 plt.switch_backend('Qt5Agg')
+
 """histogram_data calls the function from spike_train to create random data,
 as a Poisson model or MMPP model.
 This code then creates statistical histograms from the data."""
@@ -17,6 +18,7 @@ spike_times = np.where(spike_train)
 spike_intervals = np.diff(spike_times[0])
 
 # Plotting IIH for MMPP process random data
+plt.subplot(2, 1, 1)
 iih_array = [1] * len(spike_intervals)
 plt.title('Interspike Interval Histogram')
 plt.ylabel('Spikes')
@@ -59,4 +61,7 @@ part2 = L6 + L7 + L8 + L9
 denom = (c1*b + c2*a)*C*math.sqrt(A)*B
 
 prob = -2*(part1*np.exp(-0.5*B*t) + part2*part2*np.exp(-0.5*C*t)*(-0.5*C)) / denom
+plt.subplot(2, 1, 2)
+plt.ylabel('Spikes')
+plt.xlabel('Time')
 plt.plot(t, prob)

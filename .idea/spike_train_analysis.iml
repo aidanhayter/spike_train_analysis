@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
     <content url="file://D:/Tools/Neurophys/NeuroPype/cpe" />
-    <orderEntry type="jdk" jdkName="Python 3.6.3 (C:\Users\Aidan\AppData\Local\conda\conda\envs\neurodbs\python.exe)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (neuro_dbs)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

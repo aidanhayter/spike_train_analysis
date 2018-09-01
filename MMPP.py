@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 plt.switch_backend('Qt5Agg')
+
 """ MMPPpdf plots the pdf of intervals (analytic form of the IIH) for the MMPP 
  process.  It takes as input the time axis length in seconds, and the number of
  bins in it, as well as the four MMPP parameters. 
