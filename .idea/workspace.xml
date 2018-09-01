@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4fbeee5-8c0a-4481-959e-7cc67fb068ca" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spike_train_analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spike_train_analysis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDC_plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/IDC_plots.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMPP.py" beforeDir="false" afterPath="$PROJECT_DIR$/MMPP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MMPP_plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/MMPP_plots.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MMPP_plots.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MMPP_plots.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MMPP_plots.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            <state relative-caret-position="346">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -45,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDC_plots.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IDC_plots.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IDC_plots.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+            <state relative-caret-position="378">
+              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="36" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -133,8 +129,8 @@
         <option value="$PROJECT_DIR$/../../video_alignment/02_analyze_new_timestamps.py" />
         <option value="$PROJECT_DIR$/../../video_alignment/05_scrolling_animation.py" />
         <option value="$PROJECT_DIR$/MMPP.py" />
-        <option value="$PROJECT_DIR$/MMPP_plots.py" />
         <option value="$PROJECT_DIR$/IDC_plots.py" />
+        <option value="$PROJECT_DIR$/MMPP_plots.py" />
       </list>
     </option>
   </component>
@@ -316,30 +312,6 @@
     <entry file="file://$PROJECT_DIR$/../../video_alignment/02_analyze_new_timestamps.py" />
     <entry file="file://$PROJECT_DIR$/MMPP_plot.py" />
     <entry file="file://$PROJECT_DIR$/IDC_plot.py" />
-    <entry file="file://$PROJECT_DIR$/MMPP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spike_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/histogram_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/neuro_dbs/lib/python3.6/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -357,20 +329,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MMPP_plots.py">
+    <entry file="file://$PROJECT_DIR$/MMPP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/histogram_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spike_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IDC_plots.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        <state relative-caret-position="378">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MMPP_plots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
